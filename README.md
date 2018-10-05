@@ -2,7 +2,7 @@
 
 
 
-#### App Overview
+### App Overview
 
 Name: reelzdb
 
@@ -12,7 +12,7 @@ This app allows a user to search for a movie by title. The search action trigger
 If the search text yields results, the app will display matching titles and their Posters in a grid view. The user can then click on an image poster which opens a new view displaying more details about the selected movie.
 
 
-#### Design Considerations
+### Design Considerations
 
 In the design of the app, I followed the Model View Controller design pattern as much as possible to make the classes smaller and more modular. This should make it easier for other developers to assimilate and extend.
 
@@ -29,16 +29,16 @@ Additional Notes:
 Naming convention: Renamed the Retrofit Interface from MovieOMDBAPI to MovieAPI. If in the future, a different API is used, there will be no need to rename functions and variables based on the new movie db. The only reference to the word OMDB is in the URL.
 
 
-#### Third-party Libraries
+### Third-party Libraries
 
-###### Picasso: 
+##### Picasso: 
 The app relies greatly on displaying images, especially the first screen where a grid of images is displayed. So there is a need for improving the loading and caching of images. Libraries like Picasso speed up this process.
 
-###### Retrofit2 and OkHttp:
+##### Retrofit2 and OkHttp:
 The app uses an external API which returns JSON objects. Having created functions that connect over the network via HTTP and needing to handle the JSON object by streaming and parsing it, using Retrofit2 with OkHttp provides a more framework for handling API requests.
 
 
-#### Unit Testing
+### Unit Testing
 
 Although I haven't used Espresso extensively and not with Retrofit, I believe that using IdlingResource to handle waiting for the non-main thread to complete its work. 
 A quick search showed that there may be some issues with using Espresso to test apps that use Retrofit (more research need to be done).
@@ -46,7 +46,7 @@ A quick search showed that there may be some issues with using Espresso to test 
 Also, we can check/assert that a certain text is at the corresponding position on the Recycler View.
 
 
-#### Potential/future enhancement
+### Potential/future enhancement
 
 If time is not a constraint, I would create a list of improvements whether they are code structure related or UI/UX related, then prioritize them based on their tangible impact to separate those that are just a nice-to-have.
 A high impact change would be along the lines of improving performance, the user experience, or making the app display properly on different screen sizes or at least the ones that are going to be mostly used for a specific app.
@@ -68,7 +68,7 @@ Include a fuzzy search whereby the title containing typos can still result in ap
 Add comments to the code (this one is usually at the top of my list) even if the app has extensive documentation.
 
 
-#### Other resources
+### Resources
 
 developer.android.com (hide keyboard)
 
