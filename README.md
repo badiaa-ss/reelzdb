@@ -2,11 +2,7 @@
 
 
 
-### App Overview
-
-Name: reelzdb
-
-Android Studio Version: 3.1.3
+### reelzdb App Overview
 
 This app allows a user to search for a movie by title. The search action triggers a call to the OMDB database via its API.
 If the search text yields results, the app will display matching titles and their Posters in a grid view. The user can then click on an image poster which opens a new view displaying more details about the selected movie.
