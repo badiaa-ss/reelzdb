@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">reelzdb</string>
+
+    <string name="search_button">Search</string>
+    <string name="search_hint">Search for movies by title</string>
+
+    <string name="no_data">N/A</string>
+    <string name="no_poster">https://upload.wikimedia.org/wikipedia/commons/6/64/Poster_not_available.jpg</string>
+    <string name="network_not_available">Network connectivity is not available.</string>
+    <string name="title_not_found">The movie title you entered was not found.</string>
+    <string name="empty_title">Please enter a movie title.</string>
+
+    <string name="title">Title</string>
+    <string name="released">Released</string>
+    <string name="runtime">Runtime</string>
+    <string name="imdbdRating">IMDB Rating</string>
+    <string name="director">Director</string>
+    <string name="Genre">Genre</string>
+    <string name="Writer">Writer(s)</string>
+    <string name="actors">Actors</string>
+    <string name="plot">Plot</string>
+
+</resources>
